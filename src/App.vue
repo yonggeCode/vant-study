@@ -5,7 +5,8 @@
       <router-link to="/Button">Button</router-link> |
       <router-link to="/Cell">Cell</router-link> |
       <router-link to="/Area">Area</router-link> |
-      <router-link to="/Icon">Icon</router-link>
+      <router-link to="/Icon">Icon</router-link> |
+      <router-link to="/Image">Image</router-link> |
     </div>
     <router-view/>
   </div>
@@ -21,6 +22,9 @@
 }
 h1,h2,h3,h4{
   text-align: center;
+}
+h3{
+  color: red;
 }
 #nav {
   padding: 30px;

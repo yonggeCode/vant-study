@@ -26,6 +26,11 @@ const routes = [
     component: () => import('../views/Icon')
   },
   {
+    path: '/Image',
+    name: 'Image',
+    component: () => import('../views/Image')
+  },
+  {
     path: '/Area',
     name: 'Area',
     component: () => import('../views/Area')
