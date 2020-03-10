@@ -4,14 +4,15 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/Button">Button</router-link> |
       <router-link to="/Cell">Cell</router-link> |
-      <router-link to="/Area">Area</router-link>
-
+      <router-link to="/Area">Area</router-link> |
+      <router-link to="/Icon">Icon</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

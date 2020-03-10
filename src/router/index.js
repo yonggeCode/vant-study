@@ -21,6 +21,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Cell.vue')
   },
   {
+    path: '/Icon',
+    name: 'Icon',
+    component: () => import('../views/Icon')
+  },
+  {
     path: '/Area',
     name: 'Area',
     component: () => import('../views/Area')

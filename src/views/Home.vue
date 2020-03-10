@@ -17,6 +17,9 @@ export default {
 }
 </script>
 <style lang="scss">
+.home{
+  text-align: center;
+}
   .main {
   margin-bottom: 2rem;
 }
