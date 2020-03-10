@@ -31,6 +31,11 @@ const routes = [
     component: () => import('../views/Image')
   },
   {
+    path: '/Layout',
+    name: 'Layout',
+    component: () => import('../views/Layout')
+  },
+  {
     path: '/Area',
     name: 'Area',
     component: () => import('../views/Area')

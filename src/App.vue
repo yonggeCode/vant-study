@@ -7,6 +7,7 @@
       <router-link to="/Area">Area</router-link> |
       <router-link to="/Icon">Icon</router-link> |
       <router-link to="/Image">Image</router-link> |
+      <router-link to="/Layout">Layout</router-link> |
     </div>
     <router-view/>
   </div>
