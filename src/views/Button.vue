@@ -85,7 +85,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.mian{
+.block{
+  text-align: center;
 }
 .van-button {
   margin-left: 0.3rem;

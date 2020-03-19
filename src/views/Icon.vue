@@ -25,4 +25,9 @@ export default {
 
 };
 </script>
+<style lang="scss" scoped>
+  .block{
+    text-align: center;
+  }
+</style>
 

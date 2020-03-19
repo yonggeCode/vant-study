@@ -36,6 +36,16 @@ const routes = [
     component: () => import('../views/Layout')
   },
   {
+    path: '/Popup',
+    name: 'Popup',
+    component: () => import('../views/Popup')
+  },
+  {
+    path: '/Style',
+    name: 'Style',
+    component: () => import('../views/Style')
+  },
+  {
     path: '/Area',
     name: 'Area',
     component: () => import('../views/Area')

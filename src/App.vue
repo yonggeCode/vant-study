@@ -8,6 +8,8 @@
       <router-link to="/Icon">Icon</router-link> |
       <router-link to="/Image">Image</router-link> |
       <router-link to="/Layout">Layout</router-link> |
+      <router-link to="/Popup">Popup</router-link> |
+      <router-link to="/Style">Style内置样式</router-link> |
     </div>
     <router-view/>
   </div>
