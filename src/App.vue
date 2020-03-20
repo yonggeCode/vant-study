@@ -1,37 +1,47 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/Button">Button</router-link> |
-      <router-link to="/Cell">Cell</router-link> |
-      <router-link to="/Area">Area</router-link> |
-      <router-link to="/Icon">Icon</router-link> |
-      <router-link to="/Image">Image</router-link> |
-      <router-link to="/Layout">Layout</router-link> |
-      <router-link to="/Popup">Popup</router-link> |
-      <router-link to="/Style">Style内置样式</router-link> |
+      <div>
+        <h2>基础组件</h2>
+        <router-link to="/">Home</router-link>|
+        <router-link to="/Button">Button</router-link>|
+        <router-link to="/Cell">Cell</router-link>|
+        <router-link to="/Area">Area</router-link>|
+        <router-link to="/Icon">Icon</router-link>|
+        <router-link to="/Image">Image</router-link>|
+        <router-link to="/Layout">Layout</router-link>|
+        <router-link to="/Popup">Popup</router-link>|
+        <router-link to="/Style">Style内置样式</router-link>
+      </div>
+      <div>
+        <h2>表单组件</h2>
+        <router-link to="/Calendar">Calendar</router-link>|
+
+      </div>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <style lang="scss">
-
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-h1,h2,h3,h4{
+h1,
+h2,
+h3,
+h4 {
   text-align: center;
 }
-h3{
+h3 {
   color: red;
 }
 #nav {
   padding: 30px;
-  text-align:center;
+  text-align: center;
   a {
     font-weight: bold;
     color: #2c3e50;

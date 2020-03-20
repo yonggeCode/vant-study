@@ -50,6 +50,11 @@ const routes = [
     name: 'Area',
     component: () => import('../views/Area')
   },
+  {
+    path: '/Calendar',
+    name: 'ArCalendarea',
+    component: () => import('../views/Calendar')
+  },
 ]
 
 const router = new VueRouter({
