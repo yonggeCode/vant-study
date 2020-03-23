@@ -55,6 +55,11 @@ const routes = [
     name: 'ArCalendarea',
     component: () => import('../views/Calendar')
   },
+  {
+    path: '/Test',
+    name: 'Test',
+    component: () => import('../views/Test')
+  },
 ]
 
 const router = new VueRouter({
