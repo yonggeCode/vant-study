@@ -15,6 +15,7 @@
       <div>
         <h2>表单组件</h2>
         <router-link to="/Calendar">Calendar</router-link>|
+        <router-link to="/Checkbox">Checkbox</router-link>|
       </div>
       <router-link to="/Test">Test</router-link>|
     </div>

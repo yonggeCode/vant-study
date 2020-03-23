@@ -56,6 +56,11 @@ const routes = [
     component: () => import('../views/Calendar')
   },
   {
+    path: '/Checkbox',
+    name: 'Checkbox',
+    component: () => import('../views/Checkbox')
+  },
+  {
     path: '/Test',
     name: 'Test',
     component: () => import('../views/Test')
