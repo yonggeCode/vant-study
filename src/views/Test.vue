@@ -1,14 +1,13 @@
 <template>
   <div class="containe">
     <van-cell title="选择多个日期" :value="text" @click="show = true" />
-    <van-calendar v-model="show" type="multiple" @confirm="onConfirm"/>
+    <van-calendar v-model="show" type="multiple" @confirm="onConfirm" />
   </div>
 </template>
 
 <script>
 import Vue from "vue";
 import { Calendar, Cell } from "vant";
-
 Vue.use(Calendar);
 Vue.use(Cell);
 export default {
