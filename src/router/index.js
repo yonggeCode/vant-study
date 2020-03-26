@@ -61,6 +61,16 @@ const routes = [
     component: () => import('../views/Checkbox')
   },
   {
+    path: '/DatetimePicker',
+    name: 'DatetimePicker',
+    component: () => import('../views/DatetimePicker')
+  },
+  {
+    path: '/Field',
+    name: 'Field',
+    component: () => import('../views/Field')
+  },
+  {
     path: '/Test',
     name: 'Test',
     component: () => import('../views/Test')

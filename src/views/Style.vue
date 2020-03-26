@@ -30,4 +30,16 @@ export default {};
     width: 200px;
     background-color: #f5f5f5;
 }
+// .van-ellipsis{
+//       overflow: hidden;
+//     white-space: nowrap;
+//     text-overflow: ellipsis;
+// }
+// .van-multi-ellipsis--l2 {
+//     display: -webkit-box;
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+//     -webkit-line-clamp: 2;
+//     -webkit-box-orient: vertical;
+// }
 </style>
