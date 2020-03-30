@@ -18,6 +18,7 @@
         <router-link to="/Checkbox">Checkbox</router-link>|
         <router-link to="/DatetimePicker">DatetimePicker</router-link>|
         <router-link to="/Field">Field</router-link>|
+        <router-link to="/Form">Form</router-link>|
       </div>
       <router-link to="/Test">Test</router-link>|
     </div>

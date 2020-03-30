@@ -71,9 +71,14 @@ const routes = [
     component: () => import('../views/Field')
   },
   {
-    path: '/Test',
-    name: 'Test',
-    component: () => import('../views/Test')
+    path: '/Field',
+    name: 'Field',
+    component: () => import('../views/Field')
+  },
+  {
+    path: '/Form',
+    name: 'Form',
+    component: () => import('../views/Form')
   },
 ]
 
