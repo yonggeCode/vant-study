@@ -19,6 +19,14 @@
         <router-link to="/DatetimePicker">DatetimePicker</router-link>|
         <router-link to="/Field">Field</router-link>|
         <router-link to="/Form">Form</router-link>|
+        <router-link to="/NumberKeyboard">NumberKeyboard</router-link>|
+        <router-link to="/Passwordinput">Passwordinput</router-link>|
+        <router-link to="/Picker">Picker</router-link>|
+        <router-link to="/Radio">Radio</router-link>|
+        <router-link to="/Rate">Rate</router-link>|
+        <router-link to="/Search">Search</router-link>|
+
+
       </div>
       <router-link to="/Test">Test</router-link>|
     </div>

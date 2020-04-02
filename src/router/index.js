@@ -71,14 +71,39 @@ const routes = [
     component: () => import('../views/Field')
   },
   {
-    path: '/Field',
-    name: 'Field',
-    component: () => import('../views/Field')
-  },
-  {
     path: '/Form',
     name: 'Form',
     component: () => import('../views/Form')
+  },
+  {
+    path: '/NumberKeyboard',
+    name: 'NumberKeyboard',
+    component: () => import('../views/NumberKeyboard')
+  },
+  {
+    path: '/Passwordinput',
+    name: 'Passwordinput',
+    component: () => import('../views/Passwordinput')
+  },
+  {
+    path: '/Picker',
+    name: 'Picker',
+    component: () => import('../views/Picker')
+  },
+  {
+    path: '/Radio',
+    name: 'Radio',
+    component: () => import('../views/Radio')
+  },
+  {
+    path: '/Rate',
+    name: 'Rate',
+    component: () => import('../views/Rate')
+  },
+  {
+    path: '/Search',
+    name: 'Search',
+    component: () => import('../views/Search')
   },
 ]
 
