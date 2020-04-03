@@ -25,10 +25,11 @@
         <router-link to="/Radio">Radio</router-link>|
         <router-link to="/Rate">Rate</router-link>|
         <router-link to="/Search">Search</router-link>|
-
-
+        <router-link to="/Slider">Slider</router-link>|
+        <router-link to="/Stepper">Stepper</router-link>|
+        <router-link to="/Switch">Switch</router-link>|
+        <router-link to="/Uploader">Uploader</router-link>|
       </div>
-      <router-link to="/Test">Test</router-link>|
     </div>
 </template>
 

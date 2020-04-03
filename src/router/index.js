@@ -105,6 +105,31 @@ const routes = [
     name: 'Search',
     component: () => import('../views/Search')
   },
+  {
+    path: '/Slider',
+    name: 'Slider',
+    component: () => import('../views/Slider')
+  },
+  {
+    path: '/Stepper',
+    name: 'Stepper',
+    component: () => import('../views/Stepper')
+  },
+  {
+    path: '/Switch',
+    name: 'Switch',
+    component: () => import('../views/Switch')
+  },
+  {
+    path: '/Uploader',
+    name: 'Uploader',
+    component: () => import('../views/Uploader')
+  },
+  {
+    path: '/Test',
+    name: 'Test',
+    component: () => import('../views/Test')
+  },
 ]
 
 const router = new VueRouter({
