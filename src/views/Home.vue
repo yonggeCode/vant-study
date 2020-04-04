@@ -30,6 +30,14 @@
         <router-link to="/Switch">Switch</router-link>|
         <router-link to="/Uploader">Uploader</router-link>|
       </div>
+      <div>
+        <h2>反馈组件</h2>
+        <router-link to="/ActionSheet">ActionSheet</router-link>|
+        <router-link to="/Dialog">Dialog</router-link>|
+        <router-link to="/DropDownMenu">DropDownMenu</router-link>|
+        <router-link to="/Loading">Loading</router-link>|
+
+      </div>
     </div>
 </template>
 

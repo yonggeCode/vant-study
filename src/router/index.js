@@ -126,6 +126,26 @@ const routes = [
     component: () => import('../views/Uploader')
   },
   {
+    path: '/ActionSheet',
+    name: 'ActionSheet',
+    component: () => import('../views/ActionSheet')
+  },
+  {
+    path: '/Dialog',
+    name: 'Dialog',
+    component: () => import('../views/Dialog')
+  },
+  {
+    path: '/DropDownMenu',
+    name: 'DropDownMenu',
+    component: () => import('../views/DropDownMenu')
+  },
+  {
+    path: '/Loading',
+    name: 'Loading',
+    component: () => import('../views/Loading')
+  },
+  {
     path: '/Test',
     name: 'Test',
     component: () => import('../views/Test')
