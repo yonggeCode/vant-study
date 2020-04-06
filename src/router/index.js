@@ -141,6 +141,31 @@ const routes = [
     component: () => import('../views/DropDownMenu')
   },
   {
+    path: '/Notify',
+    name: 'Notify',
+    component: () => import('../views/Notify')
+  },
+  {
+    path: '/Overlay',
+    name: 'Overlay',
+    component: () => import('../views/Overlay')
+  },
+  {
+    path: '/PullRefresh',
+    name: 'PullRefresh',
+    component: () => import('../views/PullRefresh')
+  },
+  {
+    path: '/SwipeCell',
+    name: 'SwipeCell',
+    component: () => import('../views/SwipeCell')
+  },
+  {
+    path: '/Toast',
+    name: 'Toast',
+    component: () => import('../views/Toast')
+  },
+  {
     path: '/Loading',
     name: 'Loading',
     component: () => import('../views/Loading')

@@ -36,6 +36,11 @@
         <router-link to="/Dialog">Dialog</router-link>|
         <router-link to="/DropDownMenu">DropDownMenu</router-link>|
         <router-link to="/Loading">Loading</router-link>|
+        <router-link to="/Notify">Notify</router-link>|
+        <router-link to="/Overlay">Overlay</router-link>|
+        <router-link to="/PullRefresh">PullRefresh</router-link>|
+        <router-link to="/SwipeCell">SwipeCell</router-link>|
+        <router-link to="/Toast">Toast</router-link>|
 
       </div>
     </div>
