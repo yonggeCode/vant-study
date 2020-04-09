@@ -275,6 +275,38 @@ const routes = [
     }
   },
   {
+    path: '/CountDown',
+    name: 'CountDown',
+    component: () => import('../views/CountDown'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
+    path: '/Divider',
+    name: 'Divider',
+    component: () => import('../views/Divider'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
+    path: '/ImagePreview',
+    name: 'ImagePreview',
+    component: () => import('../views/ImagePreview'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
+    path: '/Lazyload',
+    name: 'Lazyload',
+    component: () => import('../views/Lazyload'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
     path: '/Test',
     name: 'Test',
     component: () => import('../views/Test')
@@ -288,11 +320,8 @@ const router = new VueRouter({
 })
 
 router.afterEach((to, from) => {
-  console.log(to);
-  console.log(from)
   if(to.meta.type){
     sessionStorage.setItem('type',to.meta.type)
   }
-  console.log(sessionStorage.getItem('type'))
 })
 export default router

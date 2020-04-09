@@ -46,6 +46,15 @@
       <van-collapse-item title="展示组件" name="show">
         <router-link class="link" tag="div" to="/Circle">Circle</router-link>
         <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
+        <router-link class="link" tag="div" to="/CountDown">CountDown</router-link>
+        <router-link class="link" tag="div" to="/Divider">Divider</router-link>
+        <router-link class="link" tag="div" to="/ImagePreview">ImagePreview</router-link>
+        <router-link class="link" tag="div" to="/Lazyload">Lazyload</router-link>
+        <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
+        <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
+        <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
+        <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
+        <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
       </van-collapse-item>
     </van-collapse>
   </div>
@@ -71,7 +80,7 @@ export default {
 <style lang="scss">
 .container {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   background: #f5f5f5;
 }
 .home {
