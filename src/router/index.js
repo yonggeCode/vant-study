@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '../layout/Home.vue'
 
 Vue.use(VueRouter)
 
@@ -302,6 +302,30 @@ const routes = [
     path: '/Lazyload',
     name: 'Lazyload',
     component: () => import('../views/Lazyload'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
+    path: '/List',
+    name: 'List',
+    component: () => import('../views/List'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
+    path: '/NoticeBar',
+    name: 'NoticeBar',
+    component: () => import('../views/NoticeBar'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
+    path: '/Panel',
+    name: 'Panel',
+    component: () => import('../views/Panel'),
     meta:{
       type:"show"
     }

@@ -49,9 +49,9 @@
         <router-link class="link" tag="div" to="/CountDown">CountDown</router-link>
         <router-link class="link" tag="div" to="/Divider">Divider</router-link>
         <router-link class="link" tag="div" to="/ImagePreview">ImagePreview</router-link>
-        <router-link class="link" tag="div" to="/Lazyload">Lazyload</router-link>
-        <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
-        <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
+        <router-link class="link" tag="div" to="/List">List</router-link>
+        <router-link class="link" tag="div" to="/NoticeBar">NoticeBar</router-link>
+        <router-link class="link" tag="div" to="/Panel">Panel</router-link>
         <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
         <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
         <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
