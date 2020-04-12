@@ -52,9 +52,9 @@
         <router-link class="link" tag="div" to="/List">List</router-link>
         <router-link class="link" tag="div" to="/NoticeBar">NoticeBar</router-link>
         <router-link class="link" tag="div" to="/Panel">Panel</router-link>
-        <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
-        <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
-        <router-link class="link" tag="div" to="/Collapse">Collapse</router-link>
+        <router-link class="link" tag="div" to="/Progress">Progress</router-link>
+        <router-link class="link" tag="div" to="/Skeleton">Skeleton</router-link>
+        <router-link class="link" tag="div" to="/Steps">Steps</router-link>
       </van-collapse-item>
     </van-collapse>
   </div>

@@ -331,6 +331,30 @@ const routes = [
     }
   },
   {
+    path: '/Progress',
+    name: 'Progress',
+    component: () => import('../views/Progress'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
+    path: '/Skeleton',
+    name: 'Skeleton',
+    component: () => import('../views/Skeleton'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
+    path: '/Steps',
+    name: 'Steps',
+    component: () => import('../views/Steps'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
     path: '/Test',
     name: 'Test',
     component: () => import('../views/Test')

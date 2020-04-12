@@ -28,6 +28,7 @@ h3,
 h4,
 h5 {
   text-align: center;
+  padding: 5px 0;
 }
 h3 {
   color: red;
