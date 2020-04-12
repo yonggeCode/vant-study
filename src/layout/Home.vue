@@ -55,6 +55,9 @@
         <router-link class="link" tag="div" to="/Progress">Progress</router-link>
         <router-link class="link" tag="div" to="/Skeleton">Skeleton</router-link>
         <router-link class="link" tag="div" to="/Steps">Steps</router-link>
+        <router-link class="link" tag="div" to="/Sticky">Sticky</router-link>
+        <router-link class="link" tag="div" to="/Swipe">Swipe</router-link>
+        <router-link class="link" tag="div" to="/Tag">Tag</router-link>
       </van-collapse-item>
     </van-collapse>
   </div>

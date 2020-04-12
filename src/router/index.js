@@ -355,12 +355,35 @@ const routes = [
     }
   },
   {
+    path: '/Sticky',
+    name: 'Sticky',
+    component: () => import('../views/Sticky'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
+    path: '/Swipe',
+    name: 'Swipe',
+    component: () => import('../views/Swipe'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
+    path: '/Tag',
+    name: 'Tag',
+    component: () => import('../views/Tag'),
+    meta:{
+      type:"show"
+    }
+  },
+  {
     path: '/Test',
     name: 'Test',
     component: () => import('../views/Test')
   },
 ]
-
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
