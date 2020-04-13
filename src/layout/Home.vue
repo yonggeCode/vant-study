@@ -59,6 +59,17 @@
         <router-link class="link" tag="div" to="/Swipe">Swipe</router-link>
         <router-link class="link" tag="div" to="/Tag">Tag</router-link>
       </van-collapse-item>
+
+      <van-collapse-item title="导航组件" name="nav">
+        <router-link class="link" tag="div" to="/Grid">Grid</router-link>
+        <router-link class="link" tag="div" to="/NavBar">NavBar</router-link>
+        <router-link class="link" tag="div" to="/IndexBar">IndexBar</router-link>
+        <router-link class="link" tag="div" to="/Pageination">Pageination</router-link>
+        <router-link class="link" tag="div" to="/SideBar">SideBar</router-link>
+        <router-link class="link" tag="div" to="/Tab">Tab</router-link>
+        <router-link class="link" tag="div" to="/Tabbar">Tabbar</router-link>
+        <router-link class="link" tag="div" to="/TreeSelect">TreeSelect</router-link>
+      </van-collapse-item>
     </van-collapse>
   </div>
 </template>

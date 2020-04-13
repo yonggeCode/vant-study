@@ -379,6 +379,70 @@ const routes = [
     }
   },
   {
+    path: '/Grid',
+    name: 'Grid',
+    component: () => import('../views/Grid'),
+    meta:{
+      type:"nav"
+    }
+  },
+  {
+    path: '/IndexBar',
+    name: 'IndexBar',
+    component: () => import('../views/IndexBar'),
+    meta:{
+      type:"nav"
+    }
+  },
+  {
+    path: '/NavBar',
+    name: 'NavBar',
+    component: () => import('../views/NavBar'),
+    meta:{
+      type:"nav"
+    }
+  },
+  {
+    path: '/Pageination',
+    name: 'Pageination',
+    component: () => import('../views/Pageination'),
+    meta:{
+      type:"nav"
+    }
+  },
+  {
+    path: '/SideBar',
+    name: 'SideBar',
+    component: () => import('../views/SideBar'),
+    meta:{
+      type:"nav"
+    }
+  },
+  {
+    path: '/Tab',
+    name: 'Tab',
+    component: () => import('../views/Tab'),
+    meta:{
+      type:"nav"
+    }
+  },
+  {
+    path: '/Tabbar',
+    name: 'Tabbar',
+    component: () => import('../views/Tabbar'),
+    meta:{
+      type:"nav"
+    }
+  },
+  {
+    path: '/TreeSelect',
+    name: 'TreeSelect',
+    component: () => import('../views/TreeSelect'),
+    meta:{
+      type:"nav"
+    }
+  },
+  {
     path: '/Test',
     name: 'Test',
     component: () => import('../views/Test')
